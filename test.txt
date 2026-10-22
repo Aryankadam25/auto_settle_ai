@@ -1,0 +1,12 @@
+AS-PLC-100231
+MH27AB1234
+9876543210
+
+
+to run:
+cd C:\confluentia_hackathon\web
+npm run dev
+
+if error
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+npm run dev

@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+pillow>=10.3
+numpy>=1.26
+# YOLO11-seg (pulls in torch)
+ultralytics>=8.3
+# Gemini VLM. The code uses `google-genai` when installed and falls back to the legacy
+# `google-generativeai` package, so either one works.
+google-genai>=1.0
